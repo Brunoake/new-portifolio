@@ -1,19 +1,15 @@
 .container{
 display: flex;
 flex-direction: row;
-background-color: #0D0603;
 color: #fff;
-height: 95px;
 }
 
-.container h2{
-    font-size: 2em;
-    
+#fundo{
+width: 100vw;
+height: 100vh;
+margin: 0;
+padding: 0;
 }
-
-
-
-
 
 nav{
 margin: 5px;

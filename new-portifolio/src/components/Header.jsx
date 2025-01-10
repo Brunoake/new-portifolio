@@ -1,10 +1,11 @@
 import React from 'react'
 import './Header.css';
+import fundoHeader from "./images/fundoheader.png"
 
 const Header = () => {
   return (
     <div className='container'>
-      <h2>Bem vindo ao meu Portifolio</h2>
+      <img src={fundoHeader} alt="" id='fundo'/>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
