@@ -1,11 +1,15 @@
 import React from 'react'
 import './Header.css';
-import fundoHeader from "./images/fundoheader.png"
+
+//Icons
+import { MdOutlineAlternateEmail } from "react-icons/md";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const Header = () => {
   return (
     <div className='container'>
-      <img src={fundoHeader} alt="" id='fundo'/>
+      
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -15,6 +19,19 @@ const Header = () => {
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
+
+       <div className="content">
+       <h3>Olá, eu me chamo</h3>
+        <h2>BRUNO PACHECO</h2>
+        <p>Front-end Developer</p>
+       
+        <div className='icons'>
+        <button><i><MdOutlineAlternateEmail /></i></button>
+        <button ><i><FaGithub /></i></button>
+        <button ><i><FaLinkedin /></i></button> 
+        </div>
+       </div>
+       
     </div>
   )
 }
