@@ -1,9 +1,12 @@
+
+
 .container{
 display: flex;
 flex-direction: row;
 color: #fff;
 background: linear-gradient(120deg, #e5e5e5 50%, #000 50%);
 height: 100vh;
+font-family: "Raleway", serif;
 }
 
 nav{
