@@ -8,15 +8,16 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <div className='container'>
+    <div>
+      <div className='container'>
       
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About-us</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Portifolio</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><button>Home</button></li>
+                <li><button>About-us</button></li>
+                <li><button>Skills</button></li>
+                <li><button>Portifolio</button></li>
+                <li><button>Contato</button></li>
             </ul>
         </nav>
 
@@ -31,8 +32,18 @@ const Header = () => {
         <button ><i><FaLinkedin /></i></button> 
         </div>
        </div>
+       <div className="perfil-container">
+        <img src="" alt="" />
+       </div>
+       </div>
+       <div className="frutos-container">
+        <h3>Frutos da Tecnologia</h3>
+        <p>Transformando desafios técnicos em experiências digitais cativantes. Como desenvolvedor front-end especializado em HTML, CSS, JavaScript e ReactJS, cultivo soluções inovadoras que dão vida a interfaces modernas, intuitivas e impactantes, conectando pessoas e tecnologia de forma única.</p>
+        <button>LEIA MAIS</button>
+       </div>
        
     </div>
+    
   )
 }
 

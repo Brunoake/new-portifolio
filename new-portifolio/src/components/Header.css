@@ -14,32 +14,31 @@ nav ul{
 display: flex;
 max-width: 100%;
 position: relative;
-left: 70rem;
+left: 66rem;
 margin-top: 3rem;
-gap: 30px;
+gap: 20px;
 }
 nav ul > li{
     list-style: none;
-    transition: .3s;
+  
 }
 
-nav ul > li:hover{
-background-color: #fff;
-border-radius: 15px;
-padding: 5px;
-width: 105px;
-}
 
-nav ul > li > a{
+nav ul > li > button{
 text-decoration: none;
 color: #fff;
 transition: .3s;
+background-color: #000;
+border: none;
+font-size: 17px;
+border-radius: 6px;
+width: 100px;
 }
 
-nav ul > li > a:hover{
+nav ul > li > button:hover{
 color: #000;
 text-align: center;
-
+background-color: #fff;
 }
 
 .content{
@@ -49,7 +48,7 @@ text-align: center;
     justify-content: center;
     color: #000;
     position: relative;
-    right: 20rem;
+    right: 30rem;
 }
 
 .content h3{
@@ -88,4 +87,34 @@ text-align: center;
 .icons button > i{
 font-size: 38.4px;
 
+}
+
+.frutos-container{
+    background-color: #1d1d1d;
+    color: #fff;
+    padding: 2rem;
+}
+
+.frutos-container h3{
+    margin: 1rem;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.frutos-container p{
+    margin: 2rem;
+    font-size: 15px;
+    width: 60%;
+}
+
+.frutos-container button{
+    background-color: #1d1d1d;
+    color: #fff;
+    border-top: none;
+    border-bottom: none;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    width: 120px;
+    height: 20pt;
+    margin-left: 2rem;
 }
