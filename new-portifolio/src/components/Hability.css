@@ -1,0 +1,80 @@
+.habilty-container{
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.habilty-container span{
+    width: 350px;
+    height: 107px;
+    border: 8px solid #000;
+    margin: 4rem;
+}
+.habilty-container span > h2{
+    font-family: "Montserrat", serif;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 35.54%;
+    line-height: 127.9%;
+}
+
+.habilty-container h3,
+.aprend-container h3{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Montserrat", serif;
+    position: relative;
+    right: 230px;
+    margin-bottom: 25px;
+}
+
+.use-container ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+   text-align: center;
+   gap: 40px;
+}
+
+.use-container ul > li,
+.aprend-container ul >li{
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.use-container ul li > img,
+.aprend-container ul li > img{
+    width: 84px;
+}
+
+.use-container ul li > p,
+.aprend-container ul li > p{
+    font-size: 24px;
+    font-family: 'montserrat';
+    font-weight: 300;
+    letter-spacing: 13.54%;
+}
+
+.aprend-container{
+    margin-top: 4rem;
+}
+.aprend-container ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.aprend-container ul > li{
+    position: relative;
+    right: 200px;
+}
+
+.aprend-container ul #mongo > p{
+    margin-top: 13px;
+}
