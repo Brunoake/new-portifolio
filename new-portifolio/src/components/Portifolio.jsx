@@ -10,43 +10,45 @@ import "./Portifolio.css";
 
 // Imagens locais
 import form from "./images/form.png";
+import landingpage from "./images/Landing page.png";
+import quiz from "./images/quiz.png";
 
 const Portifolio = () => {
   // Dados dos projetos
   const projects = [
     {
       id: 1,
-      name: "Projeto 1",
-      description: "Descrição do Projeto 1",
+      name: "Form multistep",
+      description: "Formulario multistep totalmente funcional e responsivo",
       link: "https://form-multistep-ecru.vercel.app",
-      image: form, // Corrigido para usar a imagem como string
+      image: form,
     },
     {
       id: 2,
-      name: "Projeto 2",
-      description: "Descrição do Projeto 2",
-      link: "https://projeto2.com",
-      image: "/assets/images/projeto2.png", // Certifique-se que esse caminho é válido
+      name: "Landing page",
+      description: "Landing page totalmente responsiva",
+      link: "https://landing-page-alpha-eight-66.vercel.app",
+      image: landingpage,
     },
     {
       id: 3,
-      name: "Projeto 3",
-      description: "Descrição do Projeto 3",
-      link: "https://projeto3.com",
-      image: "/assets/images/projeto3.png", // Certifique-se que esse caminho é válido
+      name: "Quiz",
+      description: "Quiz totalmente funcional e interativo",
+      link: "https://quiz-react-red.vercel.app",
+      image: quiz,
     },
   ];
 
   return (
     <div>
-      <div className="portifolio-container">
-        <span>
+      <div className="portifolio-container" id="pro">
+      <div className="head">
+      <span>
           <h3>Portifolio</h3>
         </span>
+        </div>  
         <nav>
           <a href="#">ALL</a>
-          <a href="#">REACT-JS</a>
-          <a href="#">JS</a>
         </nav>
 
         <div className="swiper-container">

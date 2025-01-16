@@ -5,22 +5,24 @@ import './Header.css';
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+//pages
+
 
 const Header = () => {
   return (
     <div>
       <div className='container'>
-      
+  
         <nav>
             <ul>
-                <li><button>Home</button></li>
-                <li><button>About-us</button></li>
-                <li><button>Skills</button></li>
-                <li><button>Portifolio</button></li>
-                <li><button>Contato</button></li>
+                <li><a href='#home'>Home</a></li>
+                <li>< a href='#about'>About-us</a></li>
+                <li><a href='#port'>Skills</a></li>
+                <li><a href='#pro'>Portifolio</a></li>
+                <li><a href='#contact'>Contato</a></li>
             </ul>
         </nav>
-
+      
        <div className="content">
        <h3>Olá, eu me chamo</h3>
         <h2>BRUNO PACHECO</h2>
@@ -32,7 +34,7 @@ const Header = () => {
         <button ><i><FaLinkedin /></i></button> 
         </div>
        </div>
-       <div className="perfil-container">
+       <div className="perfil-container" id='home'>
         <img src="" alt="" />
        </div>
        </div>

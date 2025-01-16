@@ -27,21 +27,24 @@ nav ul > li{
 }
 
 
-nav ul > li > button{
+nav ul > li > a{
 text-decoration: none;
 color: #fff;
 transition: .3s;
 background-color: #000;
 border: none;
 font-size: 17px;
-border-radius: 6px;
+border-radius: 12px;
 width: 100px;
+text-decoration: none;
+cursor: pointer;
 }
 
-nav ul > li > button:hover{
+nav ul > li > a:hover{
 color: #000;
 text-align: center;
 background-color: #fff;
+padding: 2px;
 }
 
 .content{
@@ -51,7 +54,7 @@ background-color: #fff;
     justify-content: center;
     color: #000;
     position: relative;
-    right: 30rem;
+    right: 23rem;
 }
 
 .content h3{

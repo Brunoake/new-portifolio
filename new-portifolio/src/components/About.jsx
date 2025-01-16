@@ -6,7 +6,7 @@ import { HiMiniWrenchScrewdriver } from "react-icons/hi2";
 
 const About = () => {
   return (
-    <div className='about-container'>
+    <div className='about-container' id='about'>
        <span> <h2>Sobre mim</h2></span>
         <p>Como profissional dedicado ao front-end, sou movido pela paixão em transformar ideias em interfaces <br/>funcionais e visualmente atraentes.</p>
         <button>EXPLORE</button>
