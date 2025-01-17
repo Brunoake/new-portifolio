@@ -91,11 +91,11 @@ color: #fff;
         }
 
     .form-container > form > input{
-        width: 480px;
+        width: 90%;
         margin-left: 10px;
     }
     .form-container > form > textarea{
-        width: 480px;
+        width: 90%;
         margin-left: 10px;
     }
 }
@@ -107,12 +107,11 @@ color: #fff;
     }
 
 .form-container > form > input{
-    width: 400px;
+    width: 90%;
     margin-left: 10px;
 }
 .form-container > form > textarea{
-    width: 400px;
-    margin-left: 10px;
+    width: 90%;
 }
 .form-container > form > button{
     color: #000;
