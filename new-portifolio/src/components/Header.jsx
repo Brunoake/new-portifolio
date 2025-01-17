@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from "react";
 import './Header.css';
 
 //Icons
@@ -9,17 +9,38 @@ import { FaLinkedin } from "react-icons/fa";
 
 
 const Header = () => {
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  // Alterna o estado do menu
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  // Fecha o menu ao clicar em um link
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <div>
       <div className='container'>
   
         <nav>
-            <ul>
-                <li><a href='#home'>Home</a></li>
-                <li>< a href='#about'>About-us</a></li>
-                <li><a href='#port'>Skills</a></li>
-                <li><a href='#pro'>Portifolio</a></li>
-                <li><a href='#contact'>Contato</a></li>
+          <div
+            className={`hamburger ${isMenuOpen ? "open" : ""}`}
+            onClick={toggleMenu}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+            <ul className={`nav-links ${isMenuOpen ? "active" : ""}`}> 
+                <li><a href='#home' onClick={closeMenu}> Home</a></li>
+                <li>< a href='#about' onClick={closeMenu}>About</a></li>
+                <li><a href='#port' onClick={closeMenu}>Skills</a></li>
+                <li><a href='#pro' onClick={closeMenu}>Portifolio</a></li>
+                <li><a href='#contact' onClick={closeMenu}>Contato</a></li>
             </ul>
         </nav>
       
@@ -29,9 +50,9 @@ const Header = () => {
         <p>Front-end Developer</p>
        
         <div className='icons'>
-        <button><i><MdOutlineAlternateEmail /></i></button>
-        <button ><i><FaGithub /></i></button>
-        <button ><i><FaLinkedin /></i></button> 
+        <button> <a href="brunopachecogre@gmail.com"target='_blank'><i><MdOutlineAlternateEmail /></i></a></button>
+        <button> <a href="https://github.com/Brunoake" target='_blank'><i><FaGithub /></i></a> </button>
+        <button > <a href="https://www.linkedin.com/in/bruno-pacheco-44b601268/" target='_blank'><i><FaLinkedin /></i></a> </button> 
         </div>
        </div>
        <div className="perfil-container" id='home'>

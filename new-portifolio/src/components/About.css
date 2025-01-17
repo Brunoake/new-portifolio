@@ -87,3 +87,14 @@ margin-top: 7rem;
     font-weight: lighter;   
     margin-bottom: 16rem;
 }
+
+
+@media (max-width: 768px){
+    
+    .develop-container span{
+        left: -80px;
+    }
+    .develop-container p{
+        width: 80%;
+    }
+}

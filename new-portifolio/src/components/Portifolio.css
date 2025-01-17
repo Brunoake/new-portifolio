@@ -28,7 +28,7 @@
     letter-spacing: 35.54%;
 }
 
-.portifolio-container nav > a{
+.portifolio-container .all > a{
     font-size: 14px;
     width: max-content;
     font-weight: bold;
@@ -38,7 +38,7 @@
     margin: 15px auto; 
 }
 
-.portifolio-container nav > a::after{
+.portifolio-container .all > a::after{
     content: "";
     position: absolute;
     bottom: -10px;
@@ -52,7 +52,7 @@
     transform: scaleX(0);
 }
 
-.portifolio-container nav > a:hover::after{
+.portifolio-container .all > a:hover::after{
     transform: scaleX(1);
     opacity: 1;
 }
@@ -102,4 +102,17 @@
 .project-link:hover{
     opacity: 1;
     
+}
+
+@media (max-width: 768px) {
+    .project-slide > img{
+        width: 400px;
+        height: 400px;
+        margin-bottom: 24px;
+    }
+
+    .portifolio-container .all{
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
 }

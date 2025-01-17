@@ -47,9 +47,9 @@ const Portifolio = () => {
           <h3>Portifolio</h3>
         </span>
         </div>  
-        <nav>
+        <div className="all">
           <a href="#">ALL</a>
-        </nav>
+        </div>
 
         <div className="swiper-container">
           <Swiper

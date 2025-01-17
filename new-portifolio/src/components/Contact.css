@@ -83,3 +83,19 @@ input[type="number"] {
 background-color: #000;
 color: #fff;
 }
+
+@media (max-width: 768px){
+        .form-container{
+            width: 100%;
+            margin: 1rem;
+        }
+
+    .form-container > form > input{
+        width: 480px;
+        margin-left: 10px;
+    }
+    .form-container > form > textarea{
+        width: 480px;
+        margin-left: 10px;
+    }
+}
