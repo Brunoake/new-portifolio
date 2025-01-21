@@ -12,6 +12,9 @@ import "./Portifolio.css";
 import form from "./images/form.png";
 import landingpage from "./images/Landing page.png";
 import quiz from "./images/quiz.png";
+import memories from "./images/memories.png";
+import gerador from "./images/gerador de senhas.png";
+import blog from "./images/blog.png";
 
 const Portifolio = () => {
   // Dados dos projetos
@@ -36,6 +39,27 @@ const Portifolio = () => {
       description: "Quiz totalmente funcional e interativo",
       link: "https://quiz-react-red.vercel.app",
       image: quiz,
+    },
+    {
+      id: 4,
+      name: "Memories",
+      description: "Um blog com intuito de salvar e relembrar memorias",
+      link: "https://memories-flax.vercel.app",
+      image: memories,
+    },
+    {
+      id: 5,
+      name: "Gerador de senhas",
+      description: "Um projeto desenvolvido para tela de registro com um auxiliador para senhas fortes ",
+      link: "https://brunoake.github.io/gerador-de-senhas/",
+      image: gerador,
+    },
+    {
+      id: 6,
+      name: "Blog",
+      description: "Blog totalmente funcional e responsivo",
+      link: "https://blog-react-flame.vercel.app",
+      image: blog,
     },
   ];
 
