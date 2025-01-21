@@ -1,0 +1,100 @@
+
+.about-container{
+    background: radial-gradient(circle 150% 150%, rgba(26, 21, 21, 0), rgba(1, 1, 1, 16));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 8rem;
+}
+
+.about-container span{
+width: 350px;
+height: 107px;
+border: 8px solid #000;
+margin: 4rem;
+}
+
+.about-container span > h2{
+font-family: "Montserrat", serif;
+text-align: center;
+margin-top: 25px;
+font-weight: bold;
+font-size: 30px;
+letter-spacing: 35.54%;
+line-height: 127.9%;
+}
+
+.about-container p{
+    text-align: center;
+   font-size: 15px;
+}
+
+.about-container button {
+border-left: 2px solid #000;
+border-right: 2px solid #000;
+border-top: none;
+border-bottom: none;
+background-color: #fff;
+width: 139px;
+height: 32px;
+font-size: 15px;
+font-weight: 600;
+margin-top: 7rem;
+}
+.space{
+    margin-top: 2rem;
+}
+
+.develop-container{
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    flex-direction: column;
+}
+
+.develop-container span{
+    border: none;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    right: 180px;
+    top: 25px;
+}
+
+.develop-container span > i{
+    color: #cccccc4d;
+    font-size: 96px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.develop-container span > h2{
+    font-weight: bold;
+    font-size: 22px;
+}
+.develop-container p{
+    width: 50%;
+    margin: auto;
+    font-size: 14px;
+    font-family: "Open Sans", serif;
+    font-weight: lighter;   
+    margin-bottom: 16rem;
+}
+
+
+@media (max-width: 768px){
+    
+    .develop-container span{
+        left: -80px;
+    }
+    .develop-container p{
+        width: 80%;
+    }
+}

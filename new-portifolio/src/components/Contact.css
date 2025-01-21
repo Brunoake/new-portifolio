@@ -1,0 +1,120 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container > span{
+    width: 320px;
+    height: 90px;
+    border: 8px solid #000;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.contact-container > span > h2{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 35.54%;
+    margin-top: 14px;
+}
+
+.contact-container p{
+    width: 50%;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.form-container > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container > form > input{
+    width: 600px;
+    padding: 20px;
+    border-left: 3px solid #000;
+    border-bottom: 3px solid #000;
+    border-right: none;
+    border-top: none;
+    margin-bottom: 2rem;
+}
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.form-container > form > textarea{
+    border-bottom: 3px solid #000;
+    border-left: 3px solid #000;
+    border-top: none;
+    border-right: none;
+    width: 600px;
+    height: 184px;
+    padding: 20px;
+    resize: none;
+    margin-bottom: 3rem;
+}
+
+.form-container > form > button{
+    background-color: transparent;
+    width: 197px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+    letter-spacing: 10%;
+    border-left: 3px solid #000;
+    border-right: 3px solid #000;
+    border-top: none;
+    border-bottom: none;
+    margin: auto;
+    transition: .3s;
+}
+
+.form-container > form > button:hover{
+background-color: #000;
+color: #fff;
+}
+
+@media (max-width: 768px){
+        .form-container{
+            width: 100%;
+            margin: 1rem;
+            overflow-x: hidden;
+        }
+
+    .form-container > form > input{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .form-container > form > textarea{
+        width: 90%;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 500px){
+    .form-container{
+        width: 100%;
+        margin: 2rem;
+    }
+
+.form-container > form > input{
+    width: 90%;
+    margin-left: 10px;
+}
+.form-container > form > textarea{
+    width: 90%;
+}
+.form-container > form > button{
+    color: #000;
+}
+}
